@@ -8,9 +8,10 @@ const dates = [
 ];
 
 // TODO: Buatlah fungsi createDate
-const createDate = (dates) => {
-  
-};
+const createDate = new Date ();
+let datess = dates[createDate.getDate()];
+
+
 
 // ! JANGAN DIMODIFIKASI
 (() => {
